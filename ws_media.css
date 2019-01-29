@@ -15,12 +15,14 @@
 
 /* VideoPlayer Styles */
 
+/* Video is a block, takes up most of its alloted area, and has 5 pixel top and bottom and auto on the left and right */
 video {
     display: block;
     width: 90%;
     margin: 5px auto;
 }
 
+/* In screens with a minnimum width of 521px, the video is smaller, on the right, and has more space surrounding it */
 @media only screen and (min-width: 521px) {
     video {
         width: 360px;
@@ -30,7 +32,7 @@ video {
 }
 
 /* Track Styles */
-
+/* Captions are 1.3em sans-serif font and carnation pink on a light gray background */
 ::cues {
     font: 1.3em sans-serif;
     color: rgb(221, 128, 160);
